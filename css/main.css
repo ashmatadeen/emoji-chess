@@ -5,23 +5,20 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 100px);
     grid-gap: 1px;
-    color: #444;
     width: 640px;
     height: 640px;
 }
 
 .box {
   background-color: #cecece;
-  color: #fff;
-  padding: 10px 10px;
+  padding: 5px 5px;
+  font-size: 80px;
 }
 
 .box.white {
     background-color: white;
-    color: white;
 }
 
 .box.black {
-    background-color: black;
-    color: white;
+    background-color: #cecece;
 }
